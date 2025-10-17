@@ -1,6 +1,6 @@
 pkgname=qt6-qt3d
-pkgver=6.9.2
-pkgrel=1
+pkgver=6.10.0
+pkgrel=2
 pkgdesc="C++ and QML APIs for easy inclusion of 3D graphics"
 arch=('x86_64')
 url="https://www.qt.io"
@@ -28,7 +28,7 @@ makedepends=(
 )
 source=(git+https://code.qt.io/qt/${pkgname#*-}#tag=v${pkgver}
     assimp-6.patch)
-sha256sums=(b70dc1007a439ed5971aaecfa9707d3250498dd373dede7c07ddd4cfde192d72
+sha256sums=(7e783a3f7c1e88f4005559c44179e33494fc649766255b87b329a4818a33dbde
     244589b0a353da757d61ce6b86d4fcf2fc8c11e9c0d9c5b109180cec9273055a)
 
 prepare() {
